@@ -1,15 +1,21 @@
 ﻿using System;
+using Sudoku;
 
-namespace tester {
+namespace tester // Note: actual namespace depends on the project name.
+{
     internal class Program
     {
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
 
-            var lel = backend.GenerateSudoku();
+            Sudoku.SudokuBoard gameBoard = new SudokuBoard();
+            gameBoard.Solver.SolveThePuzzle(UseRandomGenerator: true);
 
-            Console.WriteLine(lel);
+            foreach (var cell in gameBoard.Cells)
+            {
+                Console.WriteLine(cell.Value);
+            }
         }
     }
 }
