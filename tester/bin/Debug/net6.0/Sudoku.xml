@@ -4,6 +4,12 @@
         <name>Sudoku</name>
     </assembly>
     <members>
+        <member name="M:Sudoku.backend.generateSudoku">
+            <summary>
+            Generates Sudoku;
+            </summary>
+            <returns> SudokuBoard </returns>
+        </member>
         <member name="T:Sudoku.Model.Cell">
             <summary>
             Game board cell 

@@ -7,15 +7,11 @@ namespace tester // Note: actual namespace depends on the project name.
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Gello World!");
 
-            Sudoku.SudokuBoard gameBoard = new SudokuBoard();
-            gameBoard.Solver.SolveThePuzzle(UseRandomGenerator: true);
+            var lel = Backend.GenerateSudoku();
 
-            foreach (var cell in gameBoard.Cells)
-            {
-                Console.WriteLine(cell.Value);
-            }
+            lel.ForEach(v => Console.WriteLine(v));
         }
     }
 }
