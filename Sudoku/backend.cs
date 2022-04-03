@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Sudoku
 {
@@ -16,7 +15,7 @@ namespace Sudoku
         {
             var sudokuBoard = new SudokuBoard();
 
-            sudokuBoard.Solver.SolveThePuzzle(UseRandomGenerator: true);
+            sudokuBoard.Solver.SolveThePuzzle();
 
             var sudokuPuzzle = new List<int>();
 
