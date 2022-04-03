@@ -4,11 +4,17 @@
         <name>Sudoku</name>
     </assembly>
     <members>
-        <member name="M:Sudoku.backend.generateSudoku">
+        <member name="T:Sudoku.Backend">
+            <summary>
+            Isaks functions lel
+            </summary>
+        </member>
+        <member name="M:Sudoku.Backend.GenerateSudoku(System.Double)">
             <summary>
             Generates Sudoku;
+            Uses a variable toBeFilled to denote how many percent of the board the generator should fill
             </summary>
-            <returns> SudokuBoard </returns>
+            <returns> List of ints </returns>
         </member>
         <member name="T:Sudoku.Model.Cell">
             <summary>
