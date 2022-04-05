@@ -28,7 +28,7 @@ namespace frontend
         public MainWindow()
         {
             InitializeComponent();
-            _sudoku = Backend.GenerateSudoku().GetRange(0, 81);
+            _sudoku = Backend.GenerateSudoku(0.5).GetRange(0, 81);
             FillGrid();
         }
 

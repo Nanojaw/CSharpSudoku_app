@@ -8,8 +8,19 @@
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
       "Sudoku/1.0.0": {
+        "dependencies": {
+          "CliWrap": "3.4.2"
+        },
         "runtime": {
           "Sudoku.dll": {}
+        }
+      },
+      "CliWrap/3.4.2": {
+        "runtime": {
+          "lib/netstandard2.1/CliWrap.dll": {
+            "assemblyVersion": "3.4.2.0",
+            "fileVersion": "3.4.2.0"
+          }
         }
       }
     }
@@ -19,6 +30,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CliWrap/3.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v1hCQZ5YFaEaX3HJcsoJ2xQRoSWqjPHVcEo4Neo0SZ2SNEBTaJ86Mck+CiAt/+TtiWEbdjz32jhCWNNW7zEGUw==",
+      "path": "cliwrap/3.4.2",
+      "hashPath": "cliwrap.3.4.2.nupkg.sha512"
     }
   }
 }

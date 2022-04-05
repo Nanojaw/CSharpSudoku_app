@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vXmFOHmmDMb7Ayg2QmaORzsQ59JmlGROwNCu6ViCzcaRHmQ4sANP8rR7fHPBbWHVpEWg1xAZO8DXTVTFxhOEng==",
+  "dgSpecHash": "dav0zIXsG2NG5SOA+EnW7eD7pFOWQBtQOx/AQNKue/HX89u9VJbKvnRKXAvhyEv19L6LT+rM9WcXOuDK3MxA5Q==",
   "success": true,
   "projectFilePath": "C:\\Stuff\\GitRepos\\CSharpSudoku_app\\Sudoku\\Sudoku.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\test9\\.nuget\\packages\\cliwrap\\3.4.2\\cliwrap.3.4.2.nupkg.sha512"
+  ],
   "logs": []
 }

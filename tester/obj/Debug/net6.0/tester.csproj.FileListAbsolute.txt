@@ -3,6 +3,7 @@ C:\Stuff\GitRepos\CSharpSudoku_app\tester\bin\Debug\net6.0\tester.deps.json
 C:\Stuff\GitRepos\CSharpSudoku_app\tester\bin\Debug\net6.0\tester.runtimeconfig.json
 C:\Stuff\GitRepos\CSharpSudoku_app\tester\bin\Debug\net6.0\tester.dll
 C:\Stuff\GitRepos\CSharpSudoku_app\tester\bin\Debug\net6.0\tester.pdb
+C:\Stuff\GitRepos\CSharpSudoku_app\tester\bin\Debug\net6.0\CliWrap.dll
 C:\Stuff\GitRepos\CSharpSudoku_app\tester\bin\Debug\net6.0\Sudoku.dll
 C:\Stuff\GitRepos\CSharpSudoku_app\tester\bin\Debug\net6.0\Sudoku.pdb
 C:\Stuff\GitRepos\CSharpSudoku_app\tester\bin\Debug\net6.0\Sudoku.xml

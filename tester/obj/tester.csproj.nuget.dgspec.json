@@ -43,6 +43,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "CliWrap": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -105,6 +111,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "CliWrap": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -3,15 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:frontend"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <Label x:Name="Title" Content="Sudoku" Height="64" FontFamily="Cascadia Code" FontSize="48" FontWeight="Bold" HorizontalAlignment="Center"></Label>
+        <Label x:Name="Title" Content="Sudoku" Height="64" FontFamily="Cascadia Code" FontSize="48" FontWeight="Bold"
+               HorizontalAlignment="Center" />
         <Grid x:Name="MainBoard" Height="270" Width="270">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
-                <ColumnDefinition/>
+                <ColumnDefinition />
                 <ColumnDefinition />
                 <ColumnDefinition />
                 <ColumnDefinition />
@@ -32,89 +32,89 @@
                 <RowDefinition />
                 <RowDefinition />
             </Grid.RowDefinitions>
-            <Button Grid.Row="0" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="0" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="0" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="0" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="0" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="0" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="0" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="0" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="0" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="1" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="2" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="3" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="4" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="5" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="6" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="7" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="0" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="1" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="2" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="3" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="4" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="5" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="6" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="7" Height="30" Width="30" Click="CellClick"></Button>
-            <Button Grid.Row="8" Grid.Column="8" Height="30" Width="30" Click="CellClick"></Button>
+            <Button Grid.Row="0" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="0" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="0" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="0" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="0" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="0" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="0" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="0" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="0" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="1" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="2" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="3" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="4" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="5" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="6" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="7" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="0" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="1" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="2" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="3" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="4" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="5" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="6" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="7" Height="30" Width="30" Click="CellClick" />
+            <Button Grid.Row="8" Grid.Column="8" Height="30" Width="30" Click="CellClick" />
         </Grid>
 
-        <Button x:Name="GenerateBtn" Content="New Puzzle" Width="100"></Button>
+        <Button x:Name="GenerateBtn" Content="New Puzzle" Width="100" />
     </StackPanel>
 </Window>

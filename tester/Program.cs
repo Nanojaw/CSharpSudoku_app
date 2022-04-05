@@ -1,18 +1,13 @@
-﻿using System;
-using Sudoku;
+﻿using Sudoku;
 
-namespace tester // Note: actual namespace depends on the project name.
+namespace tester;
+
+internal static class Program
 {
-    internal class Program
+    private static void Main(string[] args)
     {
-        private static void Main(string[] args)
-        {
-            Console.WriteLine("Gello World!");
-
-            var lel = Backend.GenerateSudoku(0.5);
-
-
-            lel.ForEach(v => Console.WriteLine(v));
-        }
+        var backend = new CBackend();
+        
+        var SolveSudoku = backend.SolveSudoku(backend.StrToIntListSudoku(".5..83.17...1..4..3.4..56.8....3...9.9.8245....6....7...9....5...729..861.36.72.4"))
     }
 }
