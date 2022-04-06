@@ -32,15 +32,31 @@
         </member>
         <member name="M:Sudoku.CBackend.GenerateSudoku">
             <summary>
-                Generates a valid Sudoku for isak
+            Generates a valid sudoku in the right format
             </summary>
             <returns>List of ints</returns>
         </member>
-        <member name="M:Sudoku.CBackend.GenerateSudokuBackend">
+        <member name="M:Sudoku.CBackend.SolveSudoku(System.Collections.Generic.List{System.Int32})">
             <summary>
-                Generates a sudoku task
+            Solves a supplied sudoku and returns the solved puzzle in the right format
             </summary>
-            <returns></returns>
+            <param name="sudoku"></param>
+            <returns>List of ints</returns>
+        </member>
+        <member name="M:Sudoku.CBackend.StrToIntListSudoku(System.String)">
+            <summary>
+            Converts string to int list sudoku
+            </summary>
+            <param name="sudokuStr"></param>
+            <returns>Int list</returns>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Sudoku.CBackend.IntListToStrSudoku(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Converts int list to string sudoku
+            </summary>
+            <param name="sudokuIntLList"></param>
+            <returns>String</returns>
         </member>
         <member name="T:Sudoku.Model.Cell">
             <summary>
